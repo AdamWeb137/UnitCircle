@@ -1,0 +1,79 @@
+:root {
+    --back:#000814;
+    --sec-back:#001d3d;
+    --text:#ffc300;
+    --sec-text:#ff0000;
+    --font:Arial;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body, html {
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+
+body {
+    background-color: var(--back);
+    color:var(--text);
+    font-family: var(--font);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    /* background-color: var(--sec-back); */
+    padding:5px;
+    align-items: center;
+}
+
+.f {
+    display: flex;
+}
+
+.fw {
+    flex-wrap: wrap;
+}
+
+.fnw {
+    flex-wrap: nowrap;
+}
+
+.fb > * {
+    display: block;
+}
+
+choice-btns {
+    display: block;
+    margin:0px auto;
+}
+
+input[name='ang'] {
+    display: block;
+    margin: 10px auto;
+}
+
+#content {
+    padding: 15px;
+}
+
+#info {
+    max-height: 250px;
+    overflow-y: auto;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unit Circle</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="structs.js"></script>
+        <script src="custom.js"></script>
+        <script src="get_math_func.js"></script>
+        <script src="unitcircle.js"></script>
+    </head>
+    <body>
+        <div class="center">
+            <div class="flex">
+                <svg id="circle" width="500" height="500">
+                    <circle id="circ_svg" cx="250" cy="250" r="190" fill="var(--text)" />
+                    <circle id="circ_svg_cover" cx="250" cy="250" r="180" fill="var(--back)" />
+                    <circle id="svg_ang" cx="0" cy="0" r="20" fill="var(--sec-text)" style="display: none;" />
+                </svg>
+                <div id="content">
+                    <choice-btns id="ang_type"></choice-btns>
+                    <input name="ang" placeholder="angle">
+                    <ul id="info"></ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
